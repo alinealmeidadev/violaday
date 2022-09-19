@@ -83,3 +83,26 @@
     left: 15px;
     bottom: 15px;
 }
+
+#gallery-container {
+    width: 1000px;
+}
+
+#gallery-container h3 {
+    text-align: center;
+}
+
+#gallery-container h1,
+#gallery-container .col-md-6,
+#gallery-container .col-12 {
+    margin-bottom: 40px;
+}
+
+.small-image-container {
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#img1 {
+    background-image: url('');
+}
