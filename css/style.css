@@ -1,0 +1,85 @@
+/* ESTILOS GERAIS */
+
+* {
+    color: rgb(43, 40, 40);
+}
+
+.nav-link {
+    transition: 0.5s;
+    color: rgb(27, 20, 26);
+}
+
+.secondary-color { /* cor secundária */
+    color: #ff9100;
+}
+
+.center-image { /* img centralizada*/
+    background-size: cover;
+    background-position: center;
+}
+
+.btn { /*.botão*/
+    text-decoration: none;
+    color: #FFF;
+    background-color: #cb0000;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #ebdb00;
+}
+
+
+/* HEADER */
+#header {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid #cb0000;
+    background-color: #000000;
+
+}
+
+#header h1 {
+    margin-bottom: 0;
+    font-size: 15px;
+    color: #FFF;
+}
+
+
+/* NAVBAR */
+
+#navbar {
+    padding: 5px;
+    margin: 10px auto;
+
+}
+
+
+#navbar a {
+    width: 80px;
+    color: rgb(20, 19, 19);
+}
+
+#navbar a:hover {
+    color: #fdf909;
+}
+
+
+/* MAIN IMAGE */
+
+.main-image{
+    height: 500px;
+    background-image: url('../img/mulher-rei.jpg');
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.main-image-info {
+    background-color: #f0b966e8;
+    padding: 10px;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
