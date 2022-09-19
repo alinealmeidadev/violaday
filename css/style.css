@@ -85,7 +85,7 @@
 }
 
 #gallery-container {
-    width: 1000px;
+    width: 900px;
 }
 
 #gallery-container h3 {
@@ -99,10 +99,24 @@
 }
 
 .small-image-container {
-    height: 200px;
+    height: 250px;
     margin-bottom: 10px;
 }
 
 #img1 {
-    background-image: url('');
+    background-image: url('../img/como-defender-um-assassino.jpg');
+}
+
+
+#img2 {
+    background-image: url('../img/a-voz-suprema-do-blues.webp');
+}
+
+
+#img3 {
+    background-image: url('../img/um-limite-entre-nos.jfif');
+}
+
+#img4 {
+    background-image: url('../img/as-viuvas.jpg');
 }
