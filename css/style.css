@@ -1,75 +1,76 @@
 /* ESTILOS GERAIS */
 
 * {
-    color: rgb(43, 40, 40);
+    color: #302f2f;
 }
 
-.nav-link {
-    transition: 0.5s;
-    color: rgb(27, 20, 26);
+.secondary-color {
+    /* cor secundária */
+    color: #cb0000;
 }
 
-.secondary-color { /* cor secundária */
-    color: #ff9100;
-}
-
-.center-image { /* img centralizada*/
+.center-image {
+    /* img centralizada*/
     background-size: cover;
     background-position: center;
 }
 
-.btn { /*.botão*/
+.btn {
+    /*.botão*/
     text-decoration: none;
     color: #FFF;
     background-color: #cb0000;
-    padding: 3px 5px;
+    padding: 4px 5px;
     border-radius: 5px;
 }
 
 .btn:hover {
-    background-color: #000000;
-    color: #ebdb00;
+    background-color: blue;
+    color: #FFF;
 }
-
 
 /* HEADER */
 #header {
     text-align: center;
     padding: 5px;
     border-bottom: 1px solid #cb0000;
-    background-color: #000000;
-
 }
 
 #header h1 {
-    margin-bottom: 0;
+    margin: 5px 0 0 0;
     font-size: 15px;
-    color: #FFF;
+    color: #cb0000;
 }
 
+#logo {
+    width: 180px;
+}
 
 /* NAVBAR */
 
 #navbar {
     padding: 5px;
     margin: 10px auto;
-
 }
-
 
 #navbar a {
     width: 80px;
     color: rgb(20, 19, 19);
+    font-weight: 600;
 }
 
 #navbar a:hover {
-    color: #fdf909;
+    color: #FA5B06;
 }
 
 
 /* MAIN IMAGE */
 
-.main-image{
+#main-image-container {
+    width: 900px;
+}
+
+.main-image {
     height: 500px;
     background-image: url('../img/mulher-rei.jpg');
     margin-bottom: 20px;
@@ -94,7 +95,7 @@
 
 #gallery-container h1,
 #gallery-container .col-md-6,
-#gallery-container .col-12 {
+#gallery-container .col-xs-12 {
     margin-bottom: 40px;
 }
 
@@ -103,20 +104,37 @@
     margin-bottom: 10px;
 }
 
-#img1 {
-    background-image: url('../img/como-defender-um-assassino.jpg');
+#img1 {background-image: url('../img/como-defender-um-assassino.jpg');}
+
+
+#img2 {background-image: url('../img/a-voz-suprema-do-blues.webp');}
+
+#img3 {background-image: url('../img/um-limite-entre-nos.jfif');}
+
+#img4 {background-image: url('../img/as-viuvas.jpg');}
+
+#img5 {background-image: url('../img/historias-cruzadas.jfif');}
+
+#img6 {background-image: url('../img/esquadrao-suicida.webp');}
+
+/* FOOTER */
+
+footer {
+    border-top: 1px solid #cb0000;
+    height: 200px;
+    padding: 25px;
+    text-align: center;
+}
+
+footer i {
+    font-size: 25px;
 }
 
 
-#img2 {
-    background-image: url('../img/a-voz-suprema-do-blues.webp');
+#social-icons-container {
+    padding: 25px;
 }
 
-
-#img3 {
-    background-image: url('../img/um-limite-entre-nos.jfif');
-}
-
-#img4 {
-    background-image: url('../img/as-viuvas.jpg');
+a:hover i {
+    color: #cb0000;
 }
